@@ -135,13 +135,11 @@ footer {
 }
 
 #my-recipie p {
-    color: rgb(92, 91, 91);
+    color: rgb(85, 84, 84);
     font-weight: bold;
-}
-
-#my-recipie p {
     width: 40%;
 }
+
 
 #info {
     height: 200px;
