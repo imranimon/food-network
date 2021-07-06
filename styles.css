@@ -1,20 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
-header{
+
+header {
     background-image: linear-gradient(orange, tomato);
     height: 50px;
     width: 100%;
     font-size: 20px;
 
 }
-header ul{
+
+header ul {
     display: flex;
     margin-left: 70%;
 }
- 
+
 
 header li {
     list-style: none;
@@ -24,41 +26,42 @@ header li {
     color: white;
 }
 
-header a{
+header a {
     text-decoration: none;
 }
 
-#top-section{
+#top-section {
     margin-top: 10px;
     margin-bottom: 5px;
     display: flex;
-    height: 650px ;
+    height: 650px;
 }
 
-.orange-color{
+.orange-color {
     color: orange;
 }
 
-#top-section p{
+#top-section p {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: justify;
 }
 
-#top-section h1{
+#top-section h1 {
     font-size: 50px;
+    color: rgb(92, 91, 91);
 }
 
-#top-section img{
+#top-section img {
     margin-left: 30px;
     height: 95%;
 }
 
-#top-left{
+#top-left {
     padding: 200px 100px 50px 100px;
 }
 
-.btn{
+.btn {
     text-decoration: none;
     border-radius: 20px;
     padding: 10px 20px;
@@ -68,7 +71,7 @@ header a{
     box-shadow: 2px 2px 10px red;
 }
 
-#about-me{
+#about-me {
     margin-top: 5px;
     margin-bottom: 5px;
     display: flex;
@@ -79,43 +82,44 @@ header a{
     height: 650px;
 }
 
-#about-me div{
+#about-me div {
     width: 50%;
 }
 
-#about-me img{
+#about-me img {
     padding-top: 40px;
     padding-left: 200px;
     height: 94%;
 }
 
-#my-details{
+#my-details {
     padding-left: 100px;
     padding-top: 250px;
-    padding-right:40px;
+    padding-right: 40px;
 }
 
-#my-details h1{
+#my-details h1 {
     font-size: 60px;
+    color: rgb(92, 91, 91);
 }
 
-#my-details p{
+#my-details p {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: justify;
 }
 
-footer{
+footer {
     margin-top: 100px;
     background-color: black;
-    color: white;
+    color: rgb(172, 167, 167);
     text-align: center;
     padding-top: 10px;
     padding-bottom: 50px;
 
 }
 
-#my-recipie{
+#my-recipie {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,20 +127,27 @@ footer{
     height: 200px;
     align-items: center;
 }
-#my-recipie h1{
-    font-size: 30px;
+
+#my-recipie h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(92, 91, 91);
+}
+
+#my-recipie p {
+    color: rgb(92, 91, 91);
     font-weight: bold;
 }
 
-#my-recipie p{
-    width: 35%;
+#my-recipie p {
+    width: 40%;
 }
 
-#info{
+#info {
     height: 200px;
 }
 
-#shadow{
+#shadow {
     margin: 100px;
     display: flex;
     flex-direction: row;
@@ -147,38 +158,39 @@ footer{
     border-radius: 20px;
 }
 
-#shadow div{
+#shadow div {
     width: 30%;
 }
 
-#shadow h1{
+#shadow h1 {
     font-size: 50px;
 }
 
-#recipie-list{
+#recipie-list {
     display: flex;
     margin: 4.5%;
 }
 
-#recipie-list div{
+#recipie-list div {
     margin: 2%;
     display: flex;
     flex-direction: column;
     width: 29.33%;
 }
 
-.shadow-recipie{
-   margin: 5px;
-   box-shadow: 2px 2px 10px gray;
-   border-radius: 20px;
+.shadow-recipie {
+    margin: 5px;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 20px;
 }
 
-.shadow-recipie img{
+.shadow-recipie img {
     border-radius: 10%;
     padding: 15px;
     height: 60%;
 }
 
-.shadow-recipie h1, .shadow-recipie p{
+.shadow-recipie h1,
+.shadow-recipie p {
     padding-left: 15px;
 }
